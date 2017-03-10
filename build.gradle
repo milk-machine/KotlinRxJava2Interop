@@ -12,12 +12,6 @@ buildscript {
     }
 }
 
-allprojects {
-    repositories {
-        maven { url 'https://jitpack.io' }
-    }
-}
-
 apply plugin: 'java'
 apply plugin: 'kotlin'
 
@@ -28,7 +22,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.milk-machine:KotlinRxJava2Interop:-SNAPSHOT'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     compile "io.reactivex:rxjava:1.2.7"
     compile "io.reactivex.rxjava2:rxjava:2.0.7"
