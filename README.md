@@ -12,7 +12,7 @@ Observable (1v) -> Observable (2v)
 ```
 
 ## Download
-Add to `app build.gradle`:
+Add to `app` `build.gradle`:
 ```
 allprojects {
 	repositories {
@@ -21,7 +21,7 @@ allprojects {
 }
 ```
 
-Add to `module build.gradle`:
+Add to `module` `build.gradle`:
 ```
 dependencies {
 	compile 'com.github.milk-machine:KotlinRxJava2Interop:0.9.3-rc1'
