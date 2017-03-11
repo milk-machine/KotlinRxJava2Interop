@@ -1,7 +1,7 @@
 # KotlinRxJava2Interop
 [![](https://jitpack.io/v/milk-machine/KotlinRxJava2Interop.svg)](https://jitpack.io/#milk-machine/KotlinRxJava2Interop)
 
-It's "copy-paste" from https://github.com/akarnokd/RxJava2Interop with changes in Kotlin style (with extension functions).#
+It's "copy-paste" from https://github.com/akarnokd/RxJava2Interop with changes in Kotlin style (with extension functions).
 
 ## Example
 Observable (1v) -> Observable (2v)
