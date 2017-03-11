@@ -11,7 +11,7 @@ allprojects {
 }
 ```
 
-Add to moddule `build.gradle`:
+Add to module `build.gradle`:
 ```
 dependencies {
 	compile 'com.github.milk-machine:KotlinRxJava2Interop:0.9.3-rc1'
