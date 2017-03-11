@@ -3,9 +3,16 @@
 
 It's "copy-paste" from https://github.com/akarnokd/RxJava2Interop with changes in Kotlin style (with extension functions).#
 
+## Example
+Observable (1v) -> Observable (2v)
+```
+	Observable.just(1,2,3,4)
+		.toV2Observable()
+                .subscribe()
+```
+
 ## Download
 Add to app `build.gradle`:
-
 ```
 allprojects {
 	repositories {
