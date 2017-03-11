@@ -8,7 +8,7 @@ Observable (1v) -> Observable (2v)
 ```
 	Observable.just(1,2,3,4)
 		.toV2Observable()
-                .subscribe()
+		.subscribe()
 ```
 
 ## Download
