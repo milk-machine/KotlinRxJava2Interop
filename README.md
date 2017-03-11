@@ -3,7 +3,7 @@
 
 It's "copy-paste" from https://github.com/akarnokd/RxJava2Interop with changes in Kotlin style (with extension functions).#
 
-# Download
+## Download
 Add to app `build.gradle`:
 
 ```
