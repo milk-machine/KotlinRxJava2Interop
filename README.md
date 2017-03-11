@@ -5,16 +5,15 @@ Add to app `build.gradle`:
 
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 Add to moddule `build.gradle`:
 ```
 dependencies {
-	        compile 'com.github.milk-machine:KotlinRxJava2Interop:0.9.3-rc1'
+	compile 'com.github.milk-machine:KotlinRxJava2Interop:0.9.3-rc1'
 }
 ```
